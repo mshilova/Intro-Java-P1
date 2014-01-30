@@ -4,26 +4,26 @@ public class P1
 {
 	public static void main(String [] args)
 	{
-		final int MIN = 0;		// minimum
-		final double A_PERCENT = .90;	// 90% letter grade A
+    final int MIN = 0;		// minimum
+    final double A_PERCENT = .90;	// 90% letter grade A
     final double B_PERCENT = .80;  // 80% letter grade B
     final double C_PERCENT = .70;   //70% letter grade C
     final double D_PERCENT = .60;   //60% letter grade D
-		final int MAX_STUDENTS = 10;   //maximum number of students allowed
+    final int MAX_STUDENTS = 10;   //maximum number of students allowed
     final int MAX_SCORE = 100;   // maximum score
     final int MIN_SCORE= 0;      // minimum score
-		boolean errFlag = false;	// error flag input scores range check
+    boolean errFlag = false;	// error flag input scores range check
     char grade;                 // letter grade
-		char choice;		    	// repeat loop
+    char choice;		    	// repeat loop
     double bestScore = 0.0;     // find best score
-		double tmp;		        	// temporary input for scores
-		double []scores;		// array of scores
+    double tmp;		        	// temporary input for scores
+    double []scores;		// array of scores
     int [] scoreCounter = {0, 0, 0, 0, 0}; // array of scores for grade counter
     int numScoresAboveAvg = 0;  // number of scores above average
     int numScoresBelowAvg = 0; // number of scores below average
     int numStudents;         // number of students
-		Scanner scan = new Scanner(System.in);// read input from keyboard
-		String inputStr = null;		// input string reference;
+    Scanner scan = new Scanner(System.in);// read input from keyboard
+    String inputStr = null;		// input string reference;
          
     do
     {

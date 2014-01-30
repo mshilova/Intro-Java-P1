@@ -2,8 +2,8 @@ import java.util.*;	// Scanner for input
 
 public class P1
 {
-	public static void main(String [] args)
-	{
+  public static void main(String [] args)
+  {
     final int MIN = 0;		// minimum
     final double A_PERCENT = .90;	// 90% letter grade A
     final double B_PERCENT = .80;  // 80% letter grade B
